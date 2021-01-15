@@ -1,6 +1,6 @@
 # Firechat
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+Proyecto de Angular utilizando Firebase para mostrar un chat simple. Para ello, se ha de loguear con una cuenta de Google o de Twitter.
 
 ## Development server
 

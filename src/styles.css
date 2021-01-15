@@ -1,1 +1,66 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #fafafa;
+  font-size: 62.5%;
+}
+
+.main-container {
+  margin-top: 4rem;
+  margin-bottom: 15rem;
+  min-width: 100vh;
+}
+
+.puntero {
+  cursor: pointer;
+}
+
+.chat-window {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 20rem;
+  height: 26.3rem;
+  overflow: hidden;
+  box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.app-mensajes {
+  overflow-y: scroll;
+  height: 75%;
+  /*background:gray;*/
+  padding: 0.5rem;
+}
+
+/* Animaciones */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
